@@ -1,13 +1,37 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .centered {
+            /* position: absolute; */
+            /* position:static ;
+            justify-content: center;
+            align-items: center;
+            right: 0;
+            left: 0;
+            width: 100%; */
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-direction:column;
+        }
+        body {
+            background-color: black;
+            color: white;
+        }
+    </style>
     <title>Neutron17</title>
 </head>
 <body>
-    <div>
-        <a href="https://neutron17.github.io/Github-Repository-Shower-Web/index.html">Github-Repository-Shower-Web</a>
+    <h1 class="centered">Neutron17's</h1>
+    <p class="centered">somewhat minimalist website</p>
+    <div id="project">
+        <h2>Web repos</h2>
+        <a href="./gh-rep-show.html">Github Repository Shower (web)</a><p>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
